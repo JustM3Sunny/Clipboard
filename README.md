@@ -8,14 +8,14 @@ This project demonstrates a simple C program that reads and displays the content
 ### **Installation Instructions** 💾
 
 1. **Compiler:** You need a C compiler that supports Windows API calls.  Microsoft Visual Studio (with the C++ desktop development workload) is a popular choice.  MinGW or Cygwin can also be used, but may require additional configuration.
-2. **Code:** Download the provided C source code (`clipboard_reader.c`).
+2. **Code:** Download the provided C source code (`main.c`).
 3. **Compilation:** Open a command prompt or terminal in the directory containing the source code. Compile the code using your compiler. For example, using Visual Studio's compiler (cl.exe):
 
    ```bash
    cl main.c
    ```
 
-   This will generate an executable file (e.g., `clipboard_reader.exe`).
+   This will generate an executable file (e.g., `main.exe`).
 
 
 ### **Features** ✨
@@ -28,7 +28,7 @@ This project demonstrates a simple C program that reads and displays the content
 ### **Usage Instructions** ▶️
 
 1. **Copy Text:** Copy some text to your Windows clipboard.
-2. **Run Executable:** Run the compiled executable (`clipboard_reader.exe`).
+2. **Run Executable:** Run the compiled executable (`main.exe`).
 3. **Output:** The program will print the copied text to the console.
 
 
