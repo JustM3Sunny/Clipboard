@@ -42,7 +42,8 @@ This project demonstrates a simple C program that reads and displays the content
 
 ```bash
 # Compilation (using Visual Studio's compiler)
-cl main.c
+gcc main.c -o main.exe
+
 
 # Execution
 main.exe
