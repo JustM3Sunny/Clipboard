@@ -12,7 +12,7 @@ This project demonstrates a simple C program that reads and displays the content
 3. **Compilation:** Open a command prompt or terminal in the directory containing the source code. Compile the code using your compiler. For example, using Visual Studio's compiler (cl.exe):
 
    ```bash
-   cl clipboard_reader.c
+   cl main.c
    ```
 
    This will generate an executable file (e.g., `clipboard_reader.exe`).
@@ -42,10 +42,10 @@ This project demonstrates a simple C program that reads and displays the content
 
 ```bash
 # Compilation (using Visual Studio's compiler)
-cl clipboard_reader.c
+cl main.c
 
 # Execution
-clipboard_reader.exe
+main.exe
 ```
 
 ### **Contributing** 🤝
@@ -53,7 +53,7 @@ clipboard_reader.exe
 Feel free to open a pull request or suggest improvements!  This project is intended as a simple example and may lack robustness for production use.  Enhancements such as error handling and support for different clipboard formats are welcome. 💪
 
 
-### **Developer Signature** ✍️
+### **Developer** ✍️
 
 Developer: **Sunny** | GitHub: **[JustM3Sunny](https://github.com/JustM3Sunny)**
 ```
