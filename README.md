@@ -9,10 +9,10 @@ This project demonstrates a simple C program that reads and displays the content
 
 1. **Compiler:** You need a C compiler that supports Windows API calls.  Microsoft Visual Studio (with the C++ desktop development workload) is a popular choice.  MinGW or Cygwin can also be used, but may require additional configuration.
 2. **Code:** Download the provided C source code (`main.c`).
-3. **Compilation:** Open a command prompt or terminal in the directory containing the source code. Compile the code using your compiler. For example, using Visual Studio's compiler (cl.exe):
+3. **Compilation:** Open a command prompt or terminal in the directory containing the source code. Compile the code using your compiler. For example, using Visual Studio's compiler gcc :
 
    ```bash
-   cl main.c
+   gcc main.c -o main.exe
    ```
 
    This will generate an executable file (e.g., `main.exe`).
